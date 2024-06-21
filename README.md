@@ -72,3 +72,9 @@ pseudoCode(50);
 ### Description of the project structure :
 
 You have all controllers inside app/Controllers. They receive the client request, interact with database functions (inside app/Models) or validators (app/Helpers/Validator) if its necessary and return the result to the client
+
+All html views are inside views folder and the css inside assets folders.
+
+The database migrations are inside migrations folder they are lunch by date like 20240621 and a number like 01 or 02 ...
+
+To lunch migrations you just have to write this command line : php migration.php
