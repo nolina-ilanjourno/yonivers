@@ -22,10 +22,10 @@
         <?php endif; ?>
         <form action="/" method="post" novalidate>
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required value="<?= $message->email ?>">
+            <input type="email" id="email" name="email" required value="<?= isset($message) ? $message->email : "" ?>">
             <label for="message">Message:</label>
             <textarea id="message" name="message">
-                <?= $message->message ?>
+               <?= isset($message) ? $message->message : "" ?>
             </textarea>
             <button type="submit">Create message</button>
         </form>
