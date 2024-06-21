@@ -36,6 +36,10 @@ DB_PASSWORD=root
 
 Response : In the loans table we need to index book_id and member_id fields because they are related to members and books table
 
+- Question : Write an SQL query that displauys the name of members who have borrowed books published before the year 2000 :
+
+The code is inside app/Models/Book.php
+
 ### Exercise 4 : Prime Numbers
 
 - Question : Describe an algorithm to check if a number is a prime number. A simple description of the algorithm (pseudocode) is enough...

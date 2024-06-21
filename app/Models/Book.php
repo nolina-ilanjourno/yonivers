@@ -5,7 +5,7 @@ namespace App\Models;
 use App\Helpers\Database;
 use PDO;
 
-class Message {
+class Book {
     private PDO $db;
 
     public function __construct() {
